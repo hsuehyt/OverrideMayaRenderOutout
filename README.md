@@ -9,17 +9,10 @@ A simple Python script for Autodesk Maya to quickly set the render output direct
 - Updates the `defaultRenderGlobals.imageFilePrefix` with the specified output path.
 - Sets `outFormatControl` to `0` to allow custom file prefix usage.
 
-## Installation
-1. Clone or download this repository.
-2. Copy the script into your Maya scripts directory or source it directly in Maya.
-
 ## Usage
-1. In Maya, open the Script Editor.
-2. Load and execute the script.
-3. Call the function:
-   ```python
-   set_render_output_path()
-   ```
+1. Copy the code file `override_render_output.py` from this repository.
+2. Paste the script into your Maya Scripts Editor.
+3. Execute the script.
 4. A folder dialog will appear. Select your desired output directory.
 5. The script will automatically apply the selected folder as the render output path.
 
