@@ -1,6 +1,6 @@
 # OverrideMayaRenderOutput
 
-A simple Python script for Autodesk Maya to quickly set the render output directory via a folder dialog without permanently changing project structures or paths, when just wanting to ignore the project path temporarily and view the rendering results outside the project directory. The alternative way of doing this manually is to paste the target path into "Render Settings/File Output/File name prefix:" and make sure it ends in "/"
+A simple Python script for Autodesk Maya to quickly set the render output directory via a folder outside the project directory. The alternative way of doing this manually is to paste the target path into "Render Settings/File Output/File name prefix:". Make sure it ends in "/".
 
 ## Features
 - Opens a folder selection dialog in Maya.
